@@ -1,0 +1,16 @@
+import numpy as np
+b = np.array([(1.5,2,3),(4,5,6)])
+print(b)
+c = np.zeros((3,4))
+print(c)
+d = np.ones((3,4))
+print(d)
+e = np.ones((3,5))
+e = e*6
+print(e)
+f = np.empty((3,4))
+print(f)
+b = np.linspace(0 ,2, 9)
+print(b)
+g = np.sin(b)
+print(g)
